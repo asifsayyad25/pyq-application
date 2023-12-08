@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/toolbar1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </androidx.appcompat.widget.Toolbar>
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="SELECT YOUR BRANCH"
+        android:textSize="20sp"
+        android:textColor="#ABBECA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold|italic"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:text="fy all"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="civil "
+
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:text="mech"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:text="ai &amp; ds"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:text="cse"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/back"
+            android:text="entc"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

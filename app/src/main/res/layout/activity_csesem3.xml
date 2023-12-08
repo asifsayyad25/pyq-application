@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fysub">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="57dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineering Mathematics III"
+                android:textColor="#5280F3"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/m31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Engineering Mathematics III Winter 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/m32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Engineering Mathematics III Summer 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/m33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Engineering Mathematics III Summer 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/m34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Engineering Mathematics III Winter 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/m35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Engineering Mathematics III Winter 2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Discrete Mathematics "
+                android:textColor="#5280F3"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/dm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Discrete Mathematics Summer 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/dm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Discrete Mathematics Summer 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/dm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Discrete Mathematics Winter 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/dm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Discrete Mathematics Winter 2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Computer Architecture and Organization "
+                android:textColor="#5280F3"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/co1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= " Computer Architecture and Organization Winter 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/co2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= " Computer Architecture and Organization Summer 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/co3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= " Computer Architecture and Organization winter 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/co4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= " Computer Architecture and Organization Winter 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Data Structures "
+                android:textColor="#5280F3"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/ds1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Data Structures Winter 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/ds2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Data Structures Summer 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/ds3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Data Structures Winter 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/ds4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Data Structures Winter 2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

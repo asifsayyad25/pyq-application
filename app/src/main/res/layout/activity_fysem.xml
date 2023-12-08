@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fysem">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="select your semester"
+        android:textSize="25sp"
+        android:textColor="#ABBECA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+
+        android:textStyle="bold|italic"/>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/but1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tex1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/back"
+        android:text="sem-I (group A) "
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/but2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/back"
+        android:text="sem-II (group B)"
+        android:layout_below="@+id/but1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opt3"
+        android:icon="@drawable/baseline_monetization_on_24"
+        app:showAsAction="always"
+        android:title="Earn Money"/>
+
+    <item android:id="@+id/opt_new"
+        android:icon="@drawable/baseline_line_weight_24"
+        android:title="CONTACT "
+        app:showAsAction="ifRoom"/>
+
+    <item android:icon="@drawable/baseline_notification_add_24"
+        android:title="notification"
+        app:showAsAction="always"/>
+
+
+
+
+
+
+
+</menu>

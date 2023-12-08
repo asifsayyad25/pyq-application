@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fysub">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="57dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operating System"
+                android:textColor="#5280F3"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/os1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Operating System Summer 2023"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/os2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Operating System Summer 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/os3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Operating System Winter 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/os4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Operating System Summer 2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Design and Analysis of Algorithms"
+                android:textColor="#5280F3"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fysub">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:padding="16dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineering Mathematic-I"
+                android:textColor="#5280F3"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/math1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I  Summer2019"
+                android:textColor="#36454F"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/math3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I Winter2019"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+            <TextView
+                android:id="@+id/math5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I Winter2018"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/math6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I Winter2017"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/math2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I May 2019(Sup)"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/math4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic-I _Dec2019(Sup)"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Engineering Mechanics"
+                android:textColor="#397BEF"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/mac1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng-Mechanics Summer2022"
+                android:textColor="#333333"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/mac2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng-Mechanics Summer2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/mac3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng-Mechanics Winter2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/mac4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng-Mechanics Summer2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/mac5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng-Mechanics Summer2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Computer Programing"
+                android:textColor="#397BEF"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/cp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="ComputerPrograming 2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="ComputerPrograming Aug_2019"
+                android:textColor="#001F3F"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="ComputerPrograming _2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="ComputerPrograming _2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Engineering Chemistry"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/ch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-Aug2022 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-Jun2019 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-dec20219 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-dec20219(II)"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-May2019 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-May2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-Dec2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-Dec2018(II)"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistery-Dec2017"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ch10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Chemistry-Aug2022"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

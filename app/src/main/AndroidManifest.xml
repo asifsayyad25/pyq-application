@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="batu "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/mythem"
+        tools:targetApi="31">
+        <activity
+            android:name=".splas"
+            android:exported="true"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".fysub2"
+            android:exported="false" />
+        <activity
+            android:name=".fysem"
+            android:exported="false" />
+        <activity
+            android:name=".fysub"
+            android:exported="false" />
+        <activity
+            android:name=".webview1"
+            android:exported="false" />
+        <activity
+            android:name=".pyqm3"
+            android:exported="false" />
+        <activity
+            android:name=".csesem7"
+            android:exported="false"
+            android:label="@string/title_activity_csesem7"
+            android:theme="@style/Batupyq" />
+        <activity
+            android:name=".csesem6"
+            android:exported="false" />
+        <activity
+            android:name=".csesem5"
+            android:exported="false" />
+        <activity
+            android:name=".csesem3"
+            android:exported="false" />
+        <activity
+            android:name=".aisem7"
+            android:exported="false" />
+        <activity
+            android:name=".aisem6"
+            android:exported="false" />
+        <activity
+            android:name=".aisem5"
+            android:exported="false" />
+        <activity
+            android:name=".aisem4"
+            android:exported="false" />
+        <activity
+            android:name=".csesem3"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".aisem3"
+            android:exported="false" />
+        <activity
+            android:name=".allsem"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false"
+
+            >
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            />
+    </application>
+
+</manifest>

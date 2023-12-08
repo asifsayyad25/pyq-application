@@ -1,0 +1,155 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:id="@+id/scr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/math2022"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="22dp"
+                android:text="MATHMATIC-3"
+                android:textAllCaps="true"
+                android:textColor="#FF5722"
+                android:textColorHighlight="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/math2023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="CSE-Mathematic_3-Winter2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2019"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2019"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="22dp"
+                android:text="OOP JAVA"
+                android:textAllCaps="true"
+                android:textColor="#FF5722"
+                android:textColorHighlight="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-WINTER2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Summer2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="CSE_Mathematic_3-Winter2022"
+                android:textColor="#0273EB"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+
+
+

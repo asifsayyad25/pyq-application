@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fysub">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineering  Mathematic-II"
+                android:textColor="#397BEF"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/math1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic2-2023"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/math2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic2-2022"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/math3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic2-May2019(I)"
+                android:textColor="#36454F"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/math4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Mathematic2-May2019(II)"
+                android:textColor="#36454F"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/math5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+
+                android:text="Eng-Mathematic-Dec20219"
+                android:textColor="#36454F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineering  Physics"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:layout_marginTop="22dp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/phy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Eng_Physics-Aug2022"
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/phy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Eng_Physics-May2019"
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/phy3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Eng_Physics-Dec2019"
+                android:textColor="#001F3F"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/phy4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Eng_Physics-Nov2019"
+                android:textColor="#333333"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/phy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Eng_Physics-May2018"
+                android:textColor="#333333"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/phy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Eng_Physics-Dec2018"
+                android:textColor="#333333"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMMUNICATION SKILLS"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:layout_marginTop="22dp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/cm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Communication Skills_2022 "
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Communication Skills_2019 "
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/cm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Communication Skills-2019(II) "
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/cm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:text="Communication Skills_2018"
+                android:textColor="#001F3F"
+                android:background="#F0F0F0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy and Environmental Engineering"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic|bold" />
+
+
+
+            <TextView
+                android:id="@+id/EEE2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text= "Energy &amp; Enviromental Engineering -2023"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/EEE3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Energy &amp; Enviromental Engineering -Jun2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/EEE4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Energy &amp; Enviromental Engineering -Dec2019 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/EEE5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Energy &amp; Enviromental Engineering -Dec2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engineering Graphics"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic|bold" />
+
+
+            <TextView
+                android:id="@+id/Eg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Engineering Graphics 2022 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Eg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Engineering Graphics may2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Eg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Engineering Graphics Jun2019 "
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Eg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Engineering Graphics Dec2019"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Eg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0F0F0"
+                android:text="Engineering Graphics Dec2018"
+                android:textColor="#001F3F"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

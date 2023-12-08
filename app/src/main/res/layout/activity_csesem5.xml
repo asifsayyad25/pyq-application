@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".csesem5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="57dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineering"
+                android:textColor="#5280F3"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/m31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Engineering Mathematics III Winter 2022"
+               android:theme="@style/textA" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

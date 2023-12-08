@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="40dp"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D.Batu pyq "
+                        android:textSize="26sp"
+                        android:textAllCaps="true"
+                        android:layout_marginBottom="5dp"
+                        android:textStyle="italic|bold"
+                        android:textColor="#08C3F1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All Prevous Year Question paper "
+                        android:textSize="11sp"
+                        android:textAllCaps="false"
+                        android:textStyle="italic|bold"
+                        android:textColor="#929899"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/colloge"
+            app:lottie_autoPlay="true"
+            app:lottie_repeatMode="restart"
+            app:lottie_repeatCount="40"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="333dp"
+       android:orientation="vertical">
+
+
+
+
+
+       <androidx.cardview.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/cardView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardUseCompatPadding="true"
+           app:cardCornerRadius="18dp"
+
+           app:cardBackgroundColor="@color/white">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp">
+
+               <ImageView
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/softwareengineer"
+                   android:layout_marginRight="10dp"/>
+
+               <View
+                   android:layout_width="5dp"
+                   android:layout_height="match_parent"
+                   android:background="#5B86FB"
+                   android:layout_marginEnd="5dp"/>
+
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="BACHELOR OF TECHNOLOGY"
+                       android:textSize="17sp"
+                       android:textStyle="bold|italic"
+                       android:textColor="#06F3D2"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="22dp"
+                       android:layout_marginTop="8dp"
+                       android:text="CSE, AI &amp; DS, ENTC, ME, CE"
+                       android:textSize="11sp"
+                       android:textStyle="bold|italic"
+                       android:textColor="#0E0E0E"/>
+               </LinearLayout>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+
+
+       <androidx.cardview.widget.CardView
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/but1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardUseCompatPadding="true"
+           app:cardCornerRadius="18dp"
+           app:cardBackgroundColor="@color/white">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp">
+
+               <ImageView
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/medicine"
+                   android:layout_marginRight="10dp"/>
+
+               <View
+                   android:layout_width="5dp"
+                   android:layout_height="match_parent"
+                   android:background="#456EE1"
+                   android:layout_marginEnd="5dp"/>
+
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="BACHELOR OF PHARMACY"
+                       android:textSize="17sp"
+                       android:textStyle="bold|italic"
+                       android:textColor="#06F3D2"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginStart="22dp"
+                       android:text="All semester "
+                       android:textSize="11sp"
+                       android:textStyle="bold|italic"
+                       android:textColor="#0E0E0E"/>
+               </LinearLayout>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
